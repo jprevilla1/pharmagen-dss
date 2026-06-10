@@ -67,50 +67,12 @@ implementation.
 | File | Description |
 |------|-------------|
 | `[Bioinfo203] Final Project-Written Report_Revilla.pdf` | Final written report (ACM proceedings format) |
-| `05_WrittenReport.md` / `.docx` | Written report source |
-| `PharmaGenDSS_Deck.pdf` | Oral presentation slide deck |
-| `PharmaGenDSS_Proposal.pptx` | Editable presentation source |
+| `PharmaGenDSS_Proposal Deck.pdf` | Oral presentation slide deck |
 | `[Bioinfo203] Special Project_Oral Report_Revilla.mp4` | 20-minute oral report recording |
-| `PharmaGenDSS_StructuralModel.{png,pdf,pptx}` | UML class / structural model |
-| `PharmaGenDSS_Swimlane.pptx` | Swimlane / activity diagram |
-
-### Planning & working documents
-
-| File | Description |
-|------|-------------|
-| `01_ScopeBrief.md` | Scope brief — requirements, models, architecture, risks, roadmap |
-| `02_SpeakerScript.md` | Oral report speaker script |
-| `03_RecordingChecklist.md` | Recording checklist |
-| `04_DefenseQA.md` | Anticipated defense Q&A |
-| `PharmaGenDSS exploratory notes.txt` | Reactive vs. pre-emptive PGx, missing-genotype handling |
-| `ProjectProposal.txt` | Original one-line proposal |
-
-### Diagram / deck generation scripts
-
-| Script | Purpose |
-|--------|---------|
-| `generate_deck.py` | Build the proposal slide deck |
-| `generate_structural_pptx.py` | Render the structural (class) model |
-| `generate_swimlane_pptx.py` | Render the swimlane / activity diagram |
-| `extract_deck_content.py` | Dump deck text for review |
-| `rebuild_slides_19_28.py`, `inject_notes_19_28.py` | Targeted slide edits / speaker-note injection |
 
 ### Reference material
 
 - `LectureSlides/` — Bioinfo 203 Sessions 1–6 (Sommerville frameworks)
-- `ProblemSets/` — Problem Sets 1–4, whose conventions this project mirrors
-- `20260326 Bioinfo 203 Report Guidelines.pdf` — assignment guidelines
-
-## Regenerating the artifacts
-
-The generation scripts use [`python-pptx`](https://python-pptx.readthedocs.io/):
-
-```powershell
-pip install python-pptx pillow
-python generate_deck.py
-python generate_structural_pptx.py
-python generate_swimlane_pptx.py
-```
 
 ## Report outline
 
