@@ -70,10 +70,6 @@ implementation.
 | `PharmaGenDSS_Proposal Deck.pdf` | Oral presentation slide deck |
 | `[Bioinfo203] Special Project_Oral Report_Revilla.mp4` | 20-minute oral report recording |
 
-### Reference material
-
-- `LectureSlides/` — Bioinfo 203 Sessions 1–6 (Sommerville frameworks)
-
 ## Report outline
 
 1. Project Background
